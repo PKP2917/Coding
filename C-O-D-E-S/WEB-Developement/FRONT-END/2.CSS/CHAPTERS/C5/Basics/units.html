@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 5</title>
+
+    <style>
+        .one{
+            font-size: 20px;
+        }
+        .box1{
+            background-color: aqua;
+            font-size: 0.95em;  /*this means 0.95 times the font size of the parent content i.e. '.one' */
+        }
+
+        html{
+            font-size: 20px;
+        }
+        .box2{
+            background-color: aqua;
+            font-size: 0.95rem; /*this means the font size is 0.95 times the font size of default or user html doc. */
+        }
+
+        .box3{
+            background-color: aqua;
+            width: 50vw;  /*this will take the 50% of the viewport width in any device you open this document.*/
+        }
+
+        .box4{
+            background-color: aqua;
+            height: 50vh;  /*this will take the 50% of the viewport height in any device you open this document.*/
+        }
+    </style>
+
+</head>
+<body>
+    <h1><center>Units</center></h1>
+    <h2><center>Relative Lengths</center></h2>
+
+    <p>--------------------------------------------------------------------------------------------------------------</p>
+
+    <h4> 1) 'em' unit</h4>
+    <div class="one">
+        <div class="box1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ipsum.
+        </div>
+    </div>
+
+    <p>--------------------------------------------------------------------------------------------------------------</p>
+
+    <h4> 2) 'rem' unit</h4>
+    <div class="two">
+        <div class="box2">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, veritatis?
+        </div>
+    </div>
+
+    <p>--------------------------------------------------------------------------------------------------------------</p>
+
+    <h4> 3) 'vw' unit</h4>
+    <div class="three">
+        <div class="box3">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, aut?
+        </div>
+    </div>
+
+    <p>--------------------------------------------------------------------------------------------------------------</p>
+
+    <h4> 4) 'vh' unit</h4>
+    <div class="four">
+        <div class="box4">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, autem.
+        </div>
+    </div>
+</body>
+</html>

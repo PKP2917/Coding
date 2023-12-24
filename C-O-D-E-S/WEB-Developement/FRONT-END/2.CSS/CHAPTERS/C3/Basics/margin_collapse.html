@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 3</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box1{
+            height: 20px;
+            background-color: bisque;
+            margin: 30px;       
+            padding: 5px;
+            border: 2px solid black;
+        }
+        /*margin of box1 and box2 will be overlapped as they have same size*/
+        /*and if they have different margins then the highest value will be taken into consideration by the browser*/
+        .box2{
+            height: 20px;
+            background-color: aqua;
+            margin: 30px;
+            padding: 5px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1><center>Margin Collapse</center></h1>
+    
+    <div class="box1"><center>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aliquam nesciunt maiores similique tempore ratione dicta officia, necessitatibus consequatur incidunt eos quae mollitia in minima quibusdam explicabo. Dolores, quasi.
+    </center></div>
+
+    <div class="box2"><center>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, voluptatum? Harum, eum maxime, debitis facilis ad laudantium alias cupiditate totam sunt ut id deleniti. Quisquam veritatis magnam libero, consequatur exercitationem rerum delectus nisi.
+    </center></div>
+    
+</body>
+</html>

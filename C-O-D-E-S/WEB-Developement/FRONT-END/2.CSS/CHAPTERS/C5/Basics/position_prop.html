@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 5</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            display: inline-block;
+        }
+        header{
+            background-color: black;
+            color: white;
+            height: 10vh;
+            z-index: 1; /*it shows that whose z-index is greater it will be shown on top of everything.*/
+        }
+        .one{
+            background-color: aquamarine;
+            height: 40vh;
+            width: 50vw;
+            border: 2px solid black;
+            margin: auto;
+            text-align: center;
+        }
+        .box1{
+            background-color: rgb(156, 136, 136);
+            height: 150px;
+            width: 150px;
+            text-align: center;
+            position: relative; /* now we can change the position of the box in top,bottom,left,right,z-index. */
+            top: 10px;
+            bottom: 10px;
+            left: 250px;
+            right: 50px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1><center>Position Property</center></h1>
+
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="one">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aut quia facilis recusandae consectetur voluptatem repudiandae saepe! Nostrum ab, blanditiis amet necessitatibus perspiciatis eaque quos? Expedita sit error eius, incidunt quasi officiis, quaerat qui quae cumque veritatis fugiat architecto nobis excepturi. Odio, sed esse dolorem porro in tempore ratione soluta.
+
+        <div class="box1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, exercitationem.
+        </div>
+    </div>
+</body>
+</html>

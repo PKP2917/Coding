@@ -1,0 +1,17 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 3px 7px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Lumanosimo', cursive;
+}
+
+.my-1{
+    margin: 10px 0;
+}

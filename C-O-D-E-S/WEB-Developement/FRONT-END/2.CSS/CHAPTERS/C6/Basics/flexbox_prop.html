@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 6</title>
+    <style>
+        .container{
+            height: 50vh;
+            background-color: rgb(230, 230, 221);
+            display: flex;  
+            flex-wrap: wrap;/*when the viewport space is compressed it will add some new stack lines in the the same direction.*/
+            /* flex-wrap: wrap;when the viewport space is compressed it will add some new stack lines in the the reverse direction. */
+            justify-content: center;  /*this will align the box in horizontally center format.*/
+            align-items: center;      /*this will align the box in vertically center format.*/
+            /* align-content: center; this will align the content without any spaces between them when we wrap or compress them */
+        }
+        .box1{
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            border: 2px solid black;
+            order: 3;  /*this sets the order of the box, higher the order last the box is placed*/
+        }
+        .box2{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(245, 181, 85);
+            border: 2px solid black;
+            order: 1;
+        }
+        .box3{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(245, 181, 85);
+            border: 2px solid black;
+            order: 2;
+            /* flex-grow: 1;this will expand the width of the box */
+            /* flex-shrink: 2; this will compress the width of the box */
+        }
+        .box4{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(245, 181, 85);
+            border: 2px solid black;
+            order: 4;
+            align-self: center;   /*this will align only itself, not all the other boxes.*/
+        }
+        .box5{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(245, 181, 85);
+            border: 2px solid black;
+            order: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1"><center>Box 1</center></div>
+        <div class="box2"><center>Box 2</center></div>
+        <div class="box3"><center>Box 3</center></div>
+        <div class="box4"><center>Box 4</center></div>
+        <div class="box5"><center>Box 5</center></div>
+    </div>
+</body>
+</html>

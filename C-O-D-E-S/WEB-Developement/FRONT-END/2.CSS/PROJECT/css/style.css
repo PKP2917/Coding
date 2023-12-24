@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+
+:root{
+    --main-bg-color : rgb(44, 44, 44);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Lumanosimo', cursive;
+}
+
+.logo img{
+    padding: 0;
+    height: 10vh;
+    width: 5vw;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul{
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    margin: 0 10px 0 25px;
+    width: 25vw;
+    height: 25px;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.main{
+    min-height: 80vh;
+}
+
+.image{
+    overflow: hidden;
+    margin: 10px auto 10px;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
+
+.slider1{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    margin: 5px 0 1px 0 ;
+    width: 85vw;
+    display: flex;
+}
+
+.football{
+    max-width: 90vw;
+    margin: 2px 20px;
+}
+
+.football h2{
+    font-family: 'Lumanosimo', cursive;
+    font-size: medium;
+}
+
+.football h2:hover{
+    font-weight: bold;
+}
+
+.fitems{
+    display: flex;
+    align-items: center;
+    max-width: 90vw;
+    margin: auto;
+}
+
+.football-item1{
+    padding: 2px 2px;
+    margin: 1px 5px;
+}
+
+.football-item2{
+    padding: 2px 2px;
+    margin: 1px 5px;
+}
+
+.slider2{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    margin: 5px 0 1px 0 ;
+    width: 85vw;
+    display: flex;
+}
+
+.cricket{
+    max-width: 90vw;
+    margin: 2px 20px;
+}
+
+.cricket h2{
+    font-family: 'Lumanosimo', cursive;
+    font-size: medium;
+}
+
+.citems{
+    display: flex;
+    align-items: center;
+    max-width: 90vw;
+    margin: auto;
+}
+
+.cricket-item1{
+    padding: 2px 2px;
+    margin: 1px 5px;
+}
+
+.cricket-item2{
+    padding: 2px 2px;
+    margin: 1px 5px;
+}
+
+.slider3{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    margin: 5px 0 1px 0 ;
+    width: 85vw;
+    display: flex;
+}
+
+.hockey{
+    max-width: 90vw;
+    margin: 2px 20px;
+}
+
+.hockey h2{
+    font-family: 'Lumanosimo', cursive;
+    font-size: medium;
+}
+
+.hitems{
+    display: flex;
+    align-items: center;
+    max-width: 90vw;
+    margin: auto;
+}
+
+.hockey-item1{
+    padding: 2px 2px;
+    margin: 1px 5px;
+}
+
+.hockey-item2{
+    padding: 2px 2px;
+    margin: 1px 5px;
+}
+
+.slider4{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    margin: 5px 0 1px 0 ;
+    width: 90vw;
+    display: flex;
+}
+
+.volleyball{
+    max-width: 90vw;
+    margin: 2px 20px;
+}
+
+.volleyball h2{
+    font-family: 'Lumanosimo', cursive;
+    font-size: medium;
+}
+
+.vbitems{
+    display: flex;
+    align-items: center;
+    max-width: 90vw;
+    margin: auto;
+}
+
+.vb-item1{
+    padding: 2px 2px;
+    margin: 1px 5px;
+}
+
+.vb-item2{
+    padding: 2px 2px;
+    margin: 1px 5px;
+}
+
+footer{
+    height: 10vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lumanosimo', cursive;
+}

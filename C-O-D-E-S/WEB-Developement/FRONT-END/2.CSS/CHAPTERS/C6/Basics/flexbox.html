@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 6</title>
+    <style>
+        .container{
+            display: flex;  /*this will create a flex box and arrange the boxes in them.*/
+            flex-direction: column;  /*this will set the direction of flex box and make it vertical, row is default*/
+            /* flex-direction: column-reverse;  this will reverse the arrangement of the boxes and set it vertical. */
+        }
+        .box1{
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            border: 2px solid black;
+        }
+        .box2{
+            height: 100px;
+            width: 100px;
+            background-color: blanchedalmond;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1"><center>Box 1</center></div>
+        <div class="box2"><center>Box 2a</center></div>
+        <div class="box2"><center>Box 2b</center></div>
+        <div class="box2"><center>Box 2c</center></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 6</title>
+    <style>
+        .box1{
+            height: 300px;
+            width: 300px;
+            background-color: red;
+            float: right;  /*this will shift the box1 to the right side of the viewport space. */
+        }
+
+        .box2{
+            height: 300px;
+            width: 300px;
+            background-color: blue;  
+            float: right;  /*this will shift the box2 to the right side of the viewport space and to the left side of box1 */
+            clear: right;  /*this states that the right side of the box2 should be cleared,there should be no one present.*/
+        }
+    </style>
+</head>
+<body>
+    <h1><center><b>Float and Clear property</b></center></h1> 
+
+    <div class="box1">Box 1</div>
+    <div class="box2">Box 2</div>
+</body>
+</html>

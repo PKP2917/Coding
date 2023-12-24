@@ -1,0 +1,28 @@
+@media screen and (max-width: 1000px){
+    body{
+        background-color: grey;
+    }   
+    
+    .image{
+        height: 20vh;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    nav ul{
+        height: 30px;
+        justify-content: center;
+    }
+
+    .logo{
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    .search{
+        justify-content: center;
+    }
+
+}
