@@ -81,7 +81,7 @@ int main(){
 
     return 0;
 }
-*/
+*/*
 
 //-> Finding the greatest number in array .
 /*
