@@ -13,7 +13,7 @@ int main(){
 }
 */
 
-/*
+/*    
 METHOD 2: 
 
 #include<iostream>
@@ -25,7 +25,7 @@ int main(){
     return 0;
 }
 */
-
+ 
 /*
 Variables -> Containers to store data. -> (int a=12 or float b=30.6)
 Comments  -> This code will not print.

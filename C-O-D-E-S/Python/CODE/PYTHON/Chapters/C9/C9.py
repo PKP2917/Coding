@@ -35,8 +35,8 @@ print(data)
 '''
 r -> Open for reading
 w -> Open for writing
-a -> open for appending
-+ -> open for updating
+a -> Open for appending
++ -> Open for updating
 '''
 
 
@@ -60,7 +60,7 @@ f.close()
 '''
 with open('C9_2.txt','r') as f:   #-> no need to write f.close() as it is done automatically.
     a = f.read()
-print(a)
+print(a)      
 
 with open('C9_2.txt','w') as f:
     a = f.write("Hi")

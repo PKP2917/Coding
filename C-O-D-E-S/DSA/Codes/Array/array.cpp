@@ -1,6 +1,6 @@
 //---> ARRAYS
 
-
+ 
 /*
 #include<iostream>
 using namespace std;
@@ -17,7 +17,6 @@ int main(){
     return 0;
 }
 */
-
 
 
 /*   
@@ -83,7 +82,7 @@ int main(){
 
     return 0;
 }
-*/*
+*/
 
 //-> Finding the greatest number in array .
 /*
