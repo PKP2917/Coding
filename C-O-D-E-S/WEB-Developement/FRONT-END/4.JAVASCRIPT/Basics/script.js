@@ -406,7 +406,7 @@ setInterval(logkaro,2000)   //-> this set a interval after which the function wi
 localStorage.setItem('name', 'Pranav')  //-> it is stored in the form of key-value pairs
 localStorage
 localStorage.getItem('name')
-localStorage.removeItem('name')  //-> to remove one item from localStorage
+localStorage.removeItem('name')   //-> to remove one item from localStorage
 localStorage.clear();             //-> to clear the localStorage
 */
 
