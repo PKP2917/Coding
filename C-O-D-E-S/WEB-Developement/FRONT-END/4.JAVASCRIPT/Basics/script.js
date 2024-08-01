@@ -380,7 +380,7 @@ sum = (a,b)=>{
 
 //---> 14) SetTime and SetInterval
 
-//-> SetTime
+//-> SetTime 
 /*
 logkaro = ()=>{
     document.querySelectorAll('.container')[1].innerHTML = "<b> Set interval Fired!!! </b>"
@@ -407,7 +407,7 @@ localStorage.setItem('name', 'Pranav')  //-> it is stored in the form of key-val
 localStorage
 localStorage.getItem('name')
 localStorage.removeItem('name')   //-> to remove one item from localStorage
-localStorage.clear();             //-> to clear the localStorage
+localStorage.clear();             //-> to clear the localStorage  
 */
 
 
@@ -421,4 +421,15 @@ console.log(jso)
 parsed = JSON.parse(`{"name":"Pranav","length":17,"a":{"this":"that"}}`)
 console.log(typeof parsed)
 console.log(parsed);
+*/
+ 
+
+//-> 17) Javascript DOM
+/*
+jso = JSON.stringify(obj);
+console.log(typeof jso)
+console.log(jso)
+
+parsed = JSON.parse(`{"name":"Pranav","length":17,"a":{"this":"that"}}`)
+
 */
