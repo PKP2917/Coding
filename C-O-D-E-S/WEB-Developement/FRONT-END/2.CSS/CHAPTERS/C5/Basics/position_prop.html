@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chapter 5</title>
 
     <style>
         *{
+            display: flexbox;
             margin: 0;
             padding: 0;
         }
-        li{
+        li{ 
             display: inline-block;
+            justify-content: center;
         }
         header{
             background-color: black;
             color: white;
             height: 10vh;
             z-index: 1; /*it shows that whose z-index is greater it will be shown on top of everything.*/
-        }
+        }     
         .one{
             background-color: aquamarine;
             height: 40vh;
@@ -36,8 +38,7 @@
             top: 10px;
             bottom: 10px;
             left: 250px;
-            right: 50px;
-            
+            right: 50px;  
         }
     </style>
 </head>
@@ -49,7 +50,7 @@
             <ul>
                 <li>Home</li>
                 <li>About</li>
-                <li>Contact</li>
+                <li>Contact</li>  
             </ul>
         </nav>
     </header>

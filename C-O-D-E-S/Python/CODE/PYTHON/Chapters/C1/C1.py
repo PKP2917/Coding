@@ -1,12 +1,12 @@
 #---> MODULES, COMMENTS AND PIP
 
 
-'''
+''' 
 1) MODULES
 
 Types of Modules :-
     1) built-in modules -> pre installed in python. (eg. ->  os,abc)
-    2) external modules -> need to install using pip. (eg. ->  flask,tensorflow)
+    2) external modules -> need to install using pip. (eg. ->  flask,tensorflow)    
 '''
 
 import os      #-> importing a built-in module

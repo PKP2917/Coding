@@ -6,11 +6,13 @@
 while(True):
     print("Press q to quit")
     a = input("Enter a number : ")
-    if a == 'q':
+    if a == 'q':        
+    
+    
         break
-    try:
+    try:   
         print("Typing...")
-        a = int(a)
+        a = int(a)  
         if a>6:
             print("You entered a number greater than 6")
     except Exception as e:
@@ -30,7 +32,7 @@ try:
 except ValueError as e:
     print("Please enter a valid value...") 
     print(e)
-
+  
 except ZeroDivisionError as e:
     print("Make sure ypu are not dividing by 0...")
     print(e)
